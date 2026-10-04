@@ -1,4 +1,3 @@
-```tsx
 import Nav from "@/components/Nav";
 import Constellation from "@/components/Constellation";
 import Typewriter from "@/components/Typewriter";
@@ -260,7 +259,6 @@ const Index = () => {
 
               <div>
                 <div className="font-medium">{label}</div>
-
                 <div className="font-mono text-xs text-muted-foreground">
                   {note}
                 </div>
@@ -341,6 +339,3 @@ const Index = () => {
 };
 
 export default Index;
-```
-
-This version uses **VENOME** as the portfolio identity throughout and also fixes the broken JSX/URLs from the original code.
