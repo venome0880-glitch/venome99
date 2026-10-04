@@ -19,51 +19,28 @@ const DISCORD_ID = "1508400186622218250";
 
 const projects = [
   {
-    name: "inamusic",
-    status: "live" as const,
-    blurb:
-      "A crafted music experience focused on discovery and flow — smooth player UI, curated browsing, and responsive playback across devices.",
-    stack: ["React", "Node", "Audio"],
-    href: "https://inamusic.in",
-    cta: "Visit Site",
-    featured: true,
   },
   {
-    name: "Evadex",
+    name: "NAKKHOTRO",
     status: "live" as const,
     blurb:
-      "A sleek dex-style lookup interface — fast search, clean typography, and a UI tuned for quick scanning.",
-    stack: ["React", "TypeScript", "Tailwind"],
-    href: "https://evadexayliee",
-    cta: "Preview",
-    featured: true,
-  },
-  {
-    name: "ayliee.dev",
-    status: "live" as const,
-    blurb:
-      "My personal corner of the web — a home for notes, work, and experiments with glassy surfaces and subtle motion.",
-    stack: ["Vite", "React", "Motion"],
-    href: "https://ayliee.dev",
-    cta: "View Website",
+      "MY Discord server NAKKHOTRO is bangladeshi community server chilling funing and hangout more+",
+    stack: ["DISCORD"],
+    href: "https://discord.gg/nakkhotro",
+    cta: "View discord",
     featured: false,
   },
 ];
 
 const stats = [
-  { value: "3.5+", label: "Years Exp." },
-  { value: "20", label: "Years Old" },
-  { value: "10+", label: "Projects" },
-  { value: "30", label: "Clients" },
+  { value: "1+", label: "Years Exp." },
+  { value: "16", label: "Years Old" },
+  { value: "3+", label: "Projects" },
+  { value: "6", label: "Clients" },
 ];
 
 const stack = [
-  { icon: Terminal, label: "TypeScript", note: "daily driver" },
-  { icon: Boxes, label: "React / Next", note: "UI layer" },
-  { icon: Server, label: "Node · Go · Rust", note: "services" },
-  { icon: Cpu, label: "Postgres · Redis", note: "data" },
-  { icon: Sparkles, label: "GLSL · Canvas", note: "motion" },
-  { icon: Send, label: "AWS · Fly · CF", note: "delivery" },
+  { icon: Terminal, label: "Node.js", note: "daily driver" },
 ];
 
 const Index = () => {
@@ -80,7 +57,7 @@ const Index = () => {
           </div>
 
           <h1 className="font-feminine text-7xl tracking-[0.14em] md:text-9xl">
-            <span className="text-shimmer">AYLE</span>
+            <span className="text-shimmer">VENOME</span>
           </h1>
 
           <div className="mt-6 terminal-chip">
@@ -122,12 +99,12 @@ const Index = () => {
           <div className="relative overflow-hidden rounded-2xl border border-accent/30 bg-card/60 p-8 shadow-[0_0_60px_-20px_hsl(var(--accent)/0.6)] backdrop-blur md:p-10">
             <div className="absolute inset-x-0 -top-px h-px bg-gradient-to-r from-transparent via-accent/60 to-transparent" />
             <h2 className="font-display text-3xl font-semibold md:text-4xl">
-              Hey, I'm <span className="text-foreground">Alya</span>.
+              Hey, I'm <span className="text-foreground">VENOME</span>.
             </h2>
             <p className="mt-6 text-muted-foreground">
-              I'm a graphic designer, web developer, and Discord bot builder.
+              I'm a Discord bot builder.
               I love blending careful visual design with clean code — brand
-              systems, polished interfaces, and bots that feel considered down
+              systems, and bots that feel considered down
               to the last detail.
             </p>
             <p className="mt-4 text-muted-foreground">
@@ -260,13 +237,13 @@ const Index = () => {
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <Button asChild size="lg" className="rounded-full bg-foreground text-background hover:bg-foreground/90">
-              <a href="mailto:arcticayl@gmail.com">
-                arcticayl@gmail.com <ArrowUpRight className="ml-1 h-4 w-4" />
+              <a href="venome0880@gmail.com">
+                venome0880@gmail.com <ArrowUpRight className="ml-1 h-4 w-4" />
               </a>
             </Button>
             <Button asChild size="lg" variant="outline" className="btn-grad-border rounded-full bg-secondary/50">
-              <a href="https://github.com/ayliee" target="_blank" rel="noreferrer noopener" aria-label="GitHub">
-                <Github className="mr-2 h-4 w-4" /> github.com/ayliee
+              <a href="https://github.com/venome0880-glitch" target="_blank" rel="noreferrer noopener" aria-label="GitHub">
+                <Github className="mr-2 h-4 w-4" /> github.com/venome
               </a>
             </Button>
           </div>
@@ -275,7 +252,7 @@ const Index = () => {
 
       <footer className="border-t border-border/60 py-10">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 font-mono text-xs text-muted-foreground md:flex-row">
-          <span>© {new Date().getFullYear()} AYLE · crafted in the dark</span>
+          <span>© {new Date().getFullYear()} VENOME · crafted in the dark</span>
           <span className="flex items-center gap-2">
             <span className="h-1.5 w-1.5 animate-pulse-glow rounded-full bg-accent" />
             system nominal
